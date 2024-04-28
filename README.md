@@ -1,5 +1,5 @@
-# HDRUE4SS
-Enables Unreal Engine Native HDR with the power of UE4SS
+# HDR UE4SS
+Enables Unreal Engine Native HDR via UE4SS
 
 Disclaimer: The code is super scuffed, based on example code from the PCGW. Things "just work" :tm: , with plans for cleanup/optimization/merging both mods into one
 
