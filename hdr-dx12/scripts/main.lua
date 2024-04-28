@@ -8,11 +8,6 @@ local engine = FindFirstOf("Engine")
 local canExecute = true
 local init = false
 
---- UE Version Check
---- local Major = UnrealVersion.GetMajor()
---- local Minor = UnrealVersion.GetMinor()
---- local UEVersionFull = string.format("DirectX %d.%d", Major, Minor)
---- local UEVersionShort = string.format(Major, Minor)
 
 
 --- @param cmd string
@@ -38,8 +33,7 @@ function Loop()
 ---	 ExecCmd("r.HDR.Display.ColorGamut 2")
 ---	 ExecCmd("r.HDR.UI.CompositeMode 1")
 ---	 ExecCmd("r.HDR.UI.Level 1.5")
----	print(UEVersionFull)
----	print(UEVersionShort)
+
 	
 end
 
