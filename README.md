@@ -1,7 +1,13 @@
 # HDRUE4SS
 Enables Unreal Engine Native HDR with the power of UE4SS
 
-This is still super scuffed, but its better than having to edit Engine.ini!
+Why use this instead of editing engine.ini?
+Engine.ini ignores `r.HDR.Display.OutputDevice`, which is a critical cvar. It tells a shader what colorspace we're in -- HDR10 or scRGB. Without this script or forcing manually changing the value with something like UUU; it will always default to a value of 5.
+  - The issue with this is that 5 is the value for "scRGB", which Unreal Engine uses only when the game is running in DX11. If you play a DX12 game, there will be a colorspace missmatch, and everything will look off.
+
+This mod sets all values to the correct value -- effectivly making all UE4 and UE5 games have Native HDR!
+
+
 
 How to:
 1) Get UE4SS -- https://github.com/UE4SS-RE/RE-UE4SS/releases
