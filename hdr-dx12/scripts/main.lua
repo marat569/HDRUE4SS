@@ -32,7 +32,7 @@ function Loop()
 ---	 ExecCmd("r.HDR.Display.OutputDevice 3")
 ---	 ExecCmd("r.HDR.Display.ColorGamut 2")
 ---	 ExecCmd("r.HDR.UI.CompositeMode 1")
----	 ExecCmd("r.HDR.UI.Level 1.5")
+---	 ExecCmd("r.HDR.UI.Level 1.0")
 
 	
 end
@@ -49,7 +49,7 @@ function Init()
 	ExecCmd("r.HDR.Display.OutputDevice 3")
 	ExecCmd("r.HDR.Display.ColorGamut 2")
     ExecCmd("r.HDR.UI.CompositeMode 1")
-	ExecCmd("r.HDR.UI.Level 1.5")
+	ExecCmd("r.HDR.UI.Level 1.0")
 
     LoopAsync(500, function()
         Loop()
