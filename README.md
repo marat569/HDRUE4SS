@@ -24,6 +24,10 @@ How to:
 
 Done
 
+----
+- Added alternative `-2k` mods that use ACES 2000 (peak 2000 nits) -- which might result in better highlights.
+  - Use a highlight compressor like lilium's tonemapper with bt2390 to compress 2k to your target peak luminance
+
 ! For stability, I highly suggest going into `UE4SS-settings.ini` and setting `bUseUObjectArrayCache` to `false`
   `bUseUObjectArrayCache = false`
 
