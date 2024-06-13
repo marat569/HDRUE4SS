@@ -36,7 +36,10 @@ Done
 ----
 **If you have issues with the UI and Framegeneration** : 
 
-Open the main.lua file for the mod your using, so `hdr-dx12/scripts/main.lua`
+Open the main.lua file for the mod your using, for example: `hdr-dx12/scripts/main.lua` 
 
-and paste this line: `ExecCmd("r.Streamline.TagUIColorAlpha 0")` under `ExecCmd("r.HDR.UI.Level 1.0")` -- so it should look something like this below -- and save!:
+and paste this line: `ExecCmd("r.Streamline.TagUIColorAlpha 0")` under `ExecCmd("r.HDR.UI.Level 1.0")` -- so it should look something like this below:
+
 ![image](https://github.com/marat569/HDRUE4SS/assets/7017110/4b2a2e71-ab92-4be8-ac05-824b6e149e97)
+
+Save the file and enjoy!
