@@ -36,4 +36,4 @@ Done
 ----
 **If you have issues with the UI and Framegeneration** : 
 
-If you're playing the rare UE game that has issues with the HDR UI Alpha, just enable the `hdr-framegenuifix` mod !
+If you're playing the rare UE game that has issues with the HDR UI Alpha [Remnant II for example], just enable the `hdr-framegenuifix` mod !
